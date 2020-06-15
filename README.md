@@ -5,8 +5,11 @@ This framework only works on server which are based on J2EE specifications.
 # Instructions to use framework:
 
 1)Download tmservice.jar add it in lib folder of your webapplication.
-2)Download gson-2.X.XX.jar from any source and put it in your webapplication lib folder.
-2)After adding jar file you have to create following entries in your web.xml
+
+2)Download gson-2.6.XX.jar (or any latest veriosn) from a verified source and put it in your webapplication lib folder.
+
+3)After adding jar file you have to create following entries in your web.xml
+
 
     <servlet>
     <servlet-name>TMServiceLoader</servlet-name>
